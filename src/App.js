@@ -48,7 +48,7 @@ function App() {
   return (
     <ThemeProvider theme={theme[currentTheme]}>
       <GlobalStyle />
-      <Router>
+      <Router basename='/react-styled-components'>
         <div className="App">
           <Navbar 
             currentTheme={currentTheme} 
